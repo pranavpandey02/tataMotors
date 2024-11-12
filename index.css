@@ -1,0 +1,756 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body,html{
+overflow-x: hidden; 
+    height: 100vh;
+}
+#n1{
+background-color: rgb(17, 17, 54);
+}
+#nav1{
+    display: flex;
+    
+    margin-left: 350px;
+    /* background-color: rgb(21, 21, 102); */
+    /* height: 300px; */
+    width: 100%;
+    justify-content:space-around;
+   
+}
+#nav1 div {
+margin:5px;
+margin-top:5px;
+color:white;
+}
+#nav1 div a{
+text-decoration: none;
+color: white;
+font-size: 17px;
+}
+
+/* second navbar */
+
+#nav2{
+    display: flex;
+    background-color: rgb(3, 3, 19);
+    /* justify-content: space-between; */
+}
+#n2 div img {
+    width: 150px;
+    height:   100px;
+}
+#s2{
+    display: flex;
+    margin: 30px;
+}
+#s2 div a{
+    text-decoration: none;
+    color:white
+}
+/* #s3 div img{
+    width: 50px;
+    height: 100px;
+}
+#photo1{
+   width: 20p;
+    margin: -50px;
+} */
+#s25 img{
+    height: 40px;
+    width: 100px
+}
+
+/* ------hero section ------------ */
+#hero{
+    background-image: url(https://ecdn.dhakatribune.net/contents/cache/images/640x359x1/uploads/media/2024/10/20/Ratan-Tata-0158e085660d247de40df4c4ee93f7d3.jpg?jadewits_media_id=31668 );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* width: 100%; */
+    height: 100vh;
+}
+#hero12 #hero121{
+    font-size: 70px;
+    color: white;
+   margin-left: 50px;
+   margin-top: 180px;
+ }
+ #hero12 #hero122{
+    font-size: 30px;
+    color: white;
+    margin-left: 50px;
+    /* margin-top: 200px; */
+    
+ }
+ /* =---hero ke neeche wali line */
+
+#card{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+#c1 img{
+    height: 500px;
+    width: 300px;
+    border-radius: 50px;
+    margin: 18px;
+    margin-top: 50px;
+    
+}
+#c1  img:hover{
+    scale: 1.2;
+}
+#b2{
+    background-color: black;
+    height: 600px;
+}
+/* --------about section ------------- */
+/* #about1{
+
+   
+} */
+#a1{
+    font-size: 23px;
+    /* justify-content: center; */
+    margin-top: 50px;
+    text-align: center;
+}
+#a2{
+    font-size: 30px;
+    /* justify-content: center; */
+    /* margin-top: 50px; */
+    text-align: center;
+}
+#a3{
+    font-size: 40px;
+    margin-left: 180px;
+    margin-left: 100px;
+}
+#a4{
+    font-size: 22px;
+   
+    margin-left: 80px;
+}
+#a5{
+    font-size: 18px;
+    margin-top: -80px;
+    margin-left: 400px;
+}
+#a6{
+    font-size: 40px;
+    margin-left: 1050px;
+    margin-top: -140px;
+}
+#a7{
+    font-size: 22px;
+    margin-left: 980px;
+}
+#a8 img{
+margin-left: -700px;
+margin-top: -100px;
+}
+
+#a9{
+    margin-top: -600px;
+    margin-left: 430px;
+}
+#a10{
+   margin-left: 950px;
+   margin-top: -700px;
+   /* height: 300px; */
+}
+/* hero2 */
+#bg2{
+    background-image: url(https://www.tata.com/content/dam/tata/images/Management/Desktop/chandra_banner_desktop_1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* width: 100%; */
+    height: 125vh;
+}
+#h1{
+    font-size: 30px;
+    margin-left: 150px;
+}
+#h2{
+    font-size: 30px;
+    margin-left: 150px;
+}
+#h3{
+    font-size: 30px;
+    margin-left: 150px;
+}
+#h4{
+    font-size: 20px;
+    margin-left: 150px;
+}
+#h5{
+    font-size: 18px;
+    margin-left: 150px;
+}
+#h6{
+    font-size: 18px;
+    margin-left: 150px;
+}
+#h7{
+    font-size: 18px;
+    margin-left: 150px;
+}
+
+
+#bg11{
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 100px;
+
+
+}
+#bg12{
+    font-size: 30px;
+    color: blue;
+    margin-left: 100px;
+}
+#bg13{
+    font-size: 18px;
+    margin-left: 100px;
+    color: black;
+}
+#bg14 u{
+    font-size: 23px;
+    color: black;
+    margin-left: 100px;
+}
+#bg15 img{
+    height: 350px;
+    margin-top: -450px;
+    margin-left: 650px;
+}
+
+/* <!-- footer ke upaer wali line --> */
+#bg4{
+    background-image: url(https://pbs.twimg.com/media/FPfzXABaMAApt4t.jpg:large);
+margin-top: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    border-radius: 200px;
+}
+#bg21{
+   /* text-align: end; */
+   font-size: 30px;
+   color: white;
+   margin-left: 870px;
+}
+#bg22{
+    /* text-align: end; */
+    font-size: 30px;
+    color: white;
+    margin-left: 800px;
+ }
+ #bg23{
+    /* text-align: end; */
+    font-size: 20px;
+    color: white;
+    margin-left: 700px;
+ }
+ /* footer ke neeche line 2 */
+ #bg5{
+    background-image: url(https://img.freepik.com/premium-photo/female-mechanic-working-vehicle-car-service-empowering-woman_146482-12379.jpg);
+     margin-top: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    border-radius: 200px;
+}
+#bg31{
+    font-size: 30px;
+    color: white;
+    margin-left: 150px;
+    
+}
+#bg32{
+    font-size: 30px;
+    color: white;
+    margin-left: 150px;
+}
+#bg33 button{
+    font-size: 30px;
+    color: white;
+    margin-left: 150px;
+    background-color: blue;
+}
+#bg34 button{
+    font-size: 30px;
+    color: white;
+    margin-left: 150px;
+    background-color: blue;
+}
+
+
+/* background image */
+#bg6{
+    display: flex;
+    gap: 30px;
+    height: 50vh;
+    margin-top: 70px;
+    background-color:rgb(3, 3, 70);
+    text-align: center;
+    
+    
+}
+div u{
+    color: blue;
+    font-size: 20px;
+}
+.bg41{
+    color: white;
+    font-size: large;
+   
+}
+/* media queary */
+@media(max-width:949px){
+    #s2 div a{
+        text-decoration: none;
+        color:white;
+        font-size: 10px;
+    }
+    #a8 img{
+        margin-left: -800px;
+        margin-top: -100px;
+        }
+        
+        #a9{
+            margin-top: -600px;
+            margin-left: 250px;
+        }
+        #a10{
+           margin-left: 700px;
+           margin-top: -700px;
+           /* height: 300px; */
+        }
+        #h1{
+            font-size: 25px;
+            margin-left: 100px;
+        }
+        #h2{
+            font-size: 25px;
+            margin-left: 100px;
+        }
+        #h3{
+            font-size: 25px;
+            margin-left: 100px;
+        }
+        #h4{
+            font-size: 20px;
+            margin-left: 100px;
+        }
+        #h5{
+            font-size: 18px;
+            margin-left: 100px;
+        }
+        #h6{
+            font-size: 18px;
+            margin-left: 100px;
+        }
+        #h7{
+            font-size: 18px;
+            margin-left: 100px;
+        }
+        
+        
+        #bg11{
+            font-size: 25px;
+            margin-top: 30px;
+            margin-left: 100px;
+        
+        
+        }
+        #bg12{
+            font-size: 30px;
+            color: blue;
+            margin-left: 100px;
+        }
+        #bg13{
+            font-size: 18px;
+            margin-left: 100px;
+            color: black;
+        }
+        #bg14 u{
+            font-size: 23px;
+            color: black;
+            margin-left: 100px;
+        }
+        #bg15 img{
+            height: 250px;
+            margin-bottom: 50px;
+            margin-left: 450px;
+        }
+        #bg21{
+            /* text-align: end; */
+            font-size: 23px;
+            color: white;
+            margin-left: 600px;
+         }
+         #bg22{
+             /* text-align: end; */
+             font-size: 23px;
+             color: white;
+             margin-left: 600px;
+          }
+          #bg23{
+             /* text-align: end; */
+             font-size: 16px;
+             color: white;
+             margin-left: 600px;
+          }
+            #nav1{
+                display: flex;
+                margin-left: 200px;
+            }
+}
+/* 2nd media */
+@media(max-width:780px){
+    #hero12 #hero121{
+        font-size: 50px;
+    }
+    #bg21{
+    
+        font-size: 23px;
+        color: white;
+        margin-left: 300px;
+     }
+     #bg22{
+         font-size: 23px;
+         color: white;
+         margin-left:300px;
+      }
+      #bg23{
+         font-size: 16px;
+         color: white;
+         margin-left: 300px;
+      }
+
+      
+      #bg6{
+        display: flex;
+        gap: 18px;
+        height: 50vh;
+        margin-top: 70px;
+        background-color:rgb(3, 3, 70);
+        text-align: center;
+        
+        
+    }
+    div u{
+        color: blue;
+        font-size: 16px;
+    }
+    .bg41{
+        color: white;
+        font-size: medium;
+    }     
+    #a8 img{
+        margin-left: -900px;
+        margin-top: -120px;
+        }
+        
+        #a9{
+            margin-top: -700px;
+            margin-left: 200px;
+        }
+        #a10{
+           margin-left: 600px;
+           margin-top: -600px;
+           /* height: 300px; */
+        }
+      
+}
+/* third media */
+@media(max-width:690px){
+    #nav1{
+ 
+        margin-left: 100px;
+}
+#s25 img{
+    height: 30px;
+    width: 50px
+}
+#s2 div a{
+    text-decoration: none;
+    color:white;
+    font-size:5px;
+}
+#a8 img{
+    margin-left: -950px;
+    margin-top: -120px;
+    }
+    
+    #a9{
+        margin-top: -700px;
+        margin-left: 100px;
+    }
+    #a10{
+       margin-left: 550px;
+       margin-top: -600px;
+    }
+
+}
+/* third media  */
+@media(max-width:500px){
+    #hero12 #hero121{
+        font-size: 30px;
+    }
+    #a8 img{
+        margin-left: -1200px;
+        margin-top: -10px;
+        }
+        
+        #a9{
+            margin-top: -700px;
+            margin-left: 15px;
+        }
+        #a10{
+           margin-left: 550px;
+           margin-top: -600px;
+        }
+        #bg11{
+            font-size: 20px;
+            margin-top: 30px;
+            margin-left: 50px;
+        
+        
+        }
+        #bg12{
+            font-size: 20px;
+            color: blue;
+            margin-left: 50px;
+        }
+        #bg13{
+            font-size: 14px;
+            margin-left: 50px;
+            color: black;
+        }
+        #bg14 u{
+            font-size: 23px;
+            color: black;
+            margin-left:50px;
+        }
+        #bg15 img{
+            height: 130px;
+            margin-bottom: 120px;
+            margin-left: 300px;
+        }
+        #bg21{
+    
+            font-size: 18px;
+            color: white;
+            margin-left: 170px;
+         }
+         #bg22{
+             font-size: 18px;
+             color: white;
+             margin-left:170px;
+          }
+          #bg23{
+             font-size: 16px;
+             color: white;
+             margin-left: 170px;
+          }
+          #bg31{
+            font-size: 18px;
+            color: white;
+            margin-left: 150px;
+            
+        }
+        #bg32{
+            font-size: 18px;
+            color: white;
+            margin-left: 150px;
+        }
+        #bg33 button{
+            font-size: 18px;
+            color: white;
+            margin-left: 150px;
+            background-color: blue;
+        }
+        #bg34 button{
+            font-size: 18px;
+            color: white;
+            margin-left: 150px;
+            background-color: blue;
+        }
+        #bg6{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            height: 160vh;
+            margin-top: 70px;
+            background-color:rgb(3, 3, 70);
+            text-align: center;
+            
+            
+        }
+        div u{
+            color: blue;
+            font-size: 20px;
+        }
+        .bg41{
+            color: white;
+            font-size: large;
+           
+        }
+        #bg2{
+            background-image: url(https://www.theweek.in/content/dam/week/magazine/theweek/cover/images/2018/10/5/50-n-chandrasekaran.jpg.transform/schema-16x9/image.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            /* width: 100%; */
+            height: 125vh;
+        }
+        #h1{
+            
+        }
+        #h2{
+            font-size: 18px;
+            margin-left: 50px;
+            margin-top: 500px;
+            color: white;
+        }
+        #h3{
+            font-size: 18px;
+            margin-left: 50px;
+            color: white;
+        }
+        #h4{
+            font-size: 18px;
+            margin-left: 50px;
+            color: white;
+        }
+        #h5{
+            font-size: 18px;
+            margin-left: 50px;
+            color: white;
+        }
+        #h6{
+            font-size: 18px;
+            margin-left: 50px;
+            color: white;
+        }
+        #h7{
+            font-size: 18px;
+            margin-left: 50px;
+            color: white;
+        }
+        
+        #n2 div img {
+            width: 100px;
+            height:   50px;
+        }
+        #s25 img{
+            height: px;
+            width: 50px
+        }
+        #nav1{
+            display: flex;
+           
+            margin-left: 50px;
+            /* background-color: rgb(21, 21, 102); */
+            /* height: 300px; */
+            width: 100%;
+            justify-content:space-around;
+           
+        }
+        #nav1 div {
+        margin:5px;
+        margin-top:5px;
+        color:white;
+        }
+        #nav1 div a{
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+        }
+
+        /* about */
+        #a1{
+            font-size: 23px;
+            /* justify-content: center; */
+            margin-top: 50px;
+            text-align: center;
+        }
+        #a2{
+            font-size: 30px;
+            /* justify-content: center; */
+            /* margin-top: 50px; */
+            text-align: center;
+        }
+        #a3{
+            font-size: 40px;
+            margin-left: 180px;
+            margin-left: 100px;
+        }
+        #a4{
+            font-size: 22px;
+           
+            margin-left: 80px;
+        }
+        #a5{
+            font-size: 18px;
+            margin-top:20px;
+            margin-left: 30px;
+        }
+        #a6{
+            font-size: 40px;
+            margin-left: 1050px;
+            margin-top: -140px;
+        }
+        #a7{
+            font-size: 22px;
+            margin-left: 980px;
+        }
+        #a8 img{
+        margin-left: -1200px;
+        margin-top: -100px;
+        }
+        
+        #a9{
+            margin-top: -600px;
+            margin-left: 0px;
+        }
+        #a10{
+           margin-left: 950px;
+           margin-top: -700px;
+           /* height: 300px; */
+        }
+        /* picture */
+        #bg11{
+            font-size: 15px;
+            margin-top: 30px;
+            margin-left: 50px;
+        
+        
+        }
+        #bg12{
+            font-size: 20px;
+            color: blue;
+            margin-left: 50px;
+        }
+        #bg13{
+            font-size: 14px;
+            margin-left: 50px;
+            color: black;
+        }
+        #bg14 u{
+            font-size: 23px;
+            color: black;
+            margin-left:50px;
+        }
+        #bg15 img{
+            height: 80px;
+            margin-bottom: 120px;
+            margin-left: 300px;
+        }
+}
